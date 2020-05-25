@@ -11,12 +11,12 @@ REPO = git@github.com:JzzzLab/aftertrading-downloader.git
 
 .SILENT: all
 all:
-	echo waiting for a command
+	python ./otc.py
 
 .PHONY: init
 init:
 	git init
-	
+
 	git add $(README)
 	git add $(REFRESH)
 	git commit -m "$(INIT_MSG)"

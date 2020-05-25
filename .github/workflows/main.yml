@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Python Script
         run: |
-          python ./otc.py
+          make
           echo "virtual datetime: $(date)"
 
       - name: Deploy 🚀
