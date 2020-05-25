@@ -1,0 +1,42 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '35 5 * * *'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Build 🔧
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Setup Git Environment
+        run: |
+          git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+          git config --global user.name $(git log -1 --format='%an')
+          git config --global user.email $(git log -1 --format='%ae')
+
+      - name: Run Python Script
+        run: |
+          python ./otc.py
+          echo "virtual datetime: $(date)"
+
+      - name: Deploy 🚀
+        run: |
+          headid=$(git rev-parse --short HEAD)
+          git checkout csv
+          git add -A
+          git commit -m "${headid} commit $(date +%F) csv"
+          git push
