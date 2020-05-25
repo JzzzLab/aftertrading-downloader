@@ -11,7 +11,7 @@ REPO = git@github.com:JzzzLab/aftertrading-downloader.git
 
 .SILENT: all
 all:
-	python ./otc.py
+	python ./tse_and_otc_downloader.py
 
 .PHONY: init
 init:
