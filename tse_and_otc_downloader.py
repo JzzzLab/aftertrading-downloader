@@ -3,8 +3,8 @@ import datetime
 
 otc_url = 'https://www.tpex.org.tw/web/stock/aftertrading/otc_quotes_no1430/stk_wn1430_result.php?l=zh-tw&o=csv&d={}&se=EW&s=0,asc,0'
 tse_url = 'https://www.twse.com.tw/exchangeReport/MI_INDEX?response=csv&date={}&type=ALLBUT0999'
-otc_name = 'SQUOTE_EW_{}_{}.csv'
-tse_name = 'MI_INDEX_{}_{}.csv'
+otc_name = 'SQUOTE_EW_{}.csv'
+tse_name = 'MI_INDEX_{}.csv'
 
 #2020/01/01
 today_ac = datetime.datetime.today().strftime("%Y/%m/%d")
@@ -14,7 +14,7 @@ today_tw = today_ac.replace(today_ac[:4], str(eval(today_ac[:4]) - 1911))
 time = datetime.datetime.today().strftime("%H:%M:%S")
 
 def naming(name):
-    return name.format(today_tw.replace('/', ''), time.replace(':', ''))
+    return name.format(today_tw.replace('/', ''))
 
 #download otc: 上櫃股票每日收盤行情(不含定價) 所有證券(不含權證、牛熊證)
 urllib.request.urlretrieve(otc_url.format(today_tw), naming(otc_name))
