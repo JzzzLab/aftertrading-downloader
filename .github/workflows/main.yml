@@ -37,6 +37,7 @@ jobs:
         run: |
           headid=$(git rev-parse --short HEAD)
           git checkout csv
-          git add -A
+          git add "MI*" --ignore-errors
+          git add "SQ*" --ignore-errors
           git commit -m "${headid} commit $(date +%F) csv"
           git push
