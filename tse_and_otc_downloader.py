@@ -13,12 +13,12 @@ today_tw = today_ac.replace(today_ac[:4], str(eval(today_ac[:4]) - 1911))
 #14:30:00
 time = datetime.datetime.today().strftime("%H:%M:%S")
 
-def naming(name):
-    return name.format(today_tw.replace('/', ''))
+def naming(name, date):
+    return name.format(date.replace('/', ''))
 
 #download otc: 上櫃股票每日收盤行情(不含定價) 所有證券(不含權證、牛熊證)
-urllib.request.urlretrieve(otc_url.format(today_tw), naming(otc_name))
+urllib.request.urlretrieve(otc_url.format(today_tw), naming(otc_name, today_tw))
 #download tse: 上市股票每日收盤行情(全部(不含權證、牛熊證))
-urllib.request.urlretrieve(tse_url.format(today_ac.replace('/', '')), naming(tse_name))
+urllib.request.urlretrieve(tse_url.format(today_ac.replace('/', '')), naming(tse_name, today_ac))
 
 print(f"{today_ac} {time} complete")
