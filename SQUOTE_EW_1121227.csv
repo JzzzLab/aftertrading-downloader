@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="refresh" content="10;url=http://www.tpex.org.tw">
+<title> 證券櫃檯買賣中心 </title>
+<link rel="icon" type="image/ico" href="https://www.tpex.org.tw/web/images/favicon.ico">
+<link rel="SHORTCUT ICON" href="https://www.tpex.org.tw/web/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://www.tpex.org.tw/css/gtsm_aa.css">
+</head>
+<body>
+<center>
+<div class="v-pnl header-pnl">
+	<div class="v-pnl">
+		<div class="h-pnl header-logo-pnl"><h1><span>證券櫃檯買賣中心</span><a tabindex="1" href="/web/index.php?l=zh-tw" title="證券櫃檯買賣中心 logo"><img class="img-tpex-logo" alt="證券櫃檯買賣中心 logo" src="https://www.tpex.org.tw/web/images/tpex_logo.svg " border="0"></a></h1></div>
+	</div>	
+</div>
+<div class="v-pnl menu-pnl">
+  &nbsp;
+</div>
+<div class="v-pnl">	
+    	<br>
+		<br>
+		<p>您好:</p>
+    	<p>很抱歉，您所輸入的網址並不存在，建議您可以利用搜尋功能查詢。</p> 		
+		<p>Sorry, the page you requested was not found.</p>
+		<p>Please check the URL for proper spelling and capitalization.Also, you may find what you're looking for if you try searching below.</p>
+		
+		&nbsp;<a href="/index.php" title="回證券櫃檯買賣中心首頁" class="header_text01_over">回證券櫃檯買賣中心首頁</a>
+		<br>
+		<br>
+		<br>
+		<br>
+</div>
+
+<div class="v-pnl footer-pnl pt5">
+    <a accesskey="b" href="#" class="accesskey b" title="底部功能區(b)" id="bottom">:::</a>
+    <div class="v-pnl footer-function-pnl">
+        <div class="h-pnl first" style="margin-left:25px;">
+            <h3>常用交易資訊</h3>
+            <ul>
+                <li><a class="footer-function-over" title="櫃買指數歷史資料" href="/web/stock/index_info/Inxh/inx.php?l=zh-tw">櫃買指數歷史資料</a></li>				
+                <li><a class="footer-function-over" title="上櫃個股歷史行情" href="/web/stock/aftertrading/daily_trading_info/st43.php?l=zh-tw">上櫃個股歷史行情</a></li>				
+                <li><a class="footer-function-over" title="興櫃個股歷史行情" href="/web/emergingstock/single_historical/history.php?l=zh-tw">興櫃個股歷史行情</a></li>				
+                <li><a class="footer-function-over" title="開啟新視窗，連結至：融資融券餘額表" href="/web/stock/margin_trading/margin_balance/margin_bal.php?l=zh-tw" target="_blank">融資融券餘額表</a></li>
+                <li><a class="footer-function-over" title="融券借券賣出餘額" href="/web/stock/margin_trading/margin_sbl/margin_sbl.php?l=zh-tw">融券借券賣出餘額</a></li>
+                <li><a class="footer-function-over" title="平盤下得融(借)券賣出之證券名單" href="/web/stock/margin_trading/margin_mark/margin_mark.php?l=zh-tw">平盤下得融(借)券賣出之證券名單</a></li>				
+            </ul>
+            <ul>
+                <li><a class="footer-function-over" title="三大法人買賣金額彙總表" href="/web/stock/3insti/3insti_SUMMARY/3itrdsum.php?l=zh-tw">三大法人買賣金額彙總表</a></li>
+                <li><a class="footer-function-over" title="投信買賣超彙總表" href="/web/stock/3insti/sitc_trading/sitctr.php?l=zh-tw">投信買賣超彙總表</a></li>
+                <li><a class="footer-function-over" title="外資及陸資買賣超彙總表" href="/web/stock/3insti/qfii_trading/forgtr.php?l=zh-tw">外資及陸資買賣超彙總表</a></li>
+                <li><a class="footer-function-over" title="開啟新視窗，連結至：當日可借券賣出股數" href="http://www.twse.com.tw/zh/page/trading/SBL/TWT96U.html" target="_blank">當日可借券賣出股數</a></li>
+                <li><a class="footer-function-over" title="開啟新視窗，連結至：有價證券借貸" href="http://www.twse.com.tw/zh/page/products/sbl/edu.html" target="_blank">有價證券借貸</a></li>
+            </ul>
+        </div>
+        <div class="h-pnl">
+            <h3>統計資料</h3>
+            <ul>
+                <li><a class="footer-function-over" title="上櫃股票統計" href="/web/stock/statistics/monthly/monthly_rpt_mkt_info_02.php?l=zh-tw">上櫃股票統計</a></li>
+                <li><a class="footer-function-over" title="上櫃公司市值、本益比、殖利率、投資報酬率一覽表" href="/web/stock/statistics/monthly/monthly_rpt_mkt_info_09.php?l=zh-tw">上櫃公司市值、本益比、殖利率、投資報酬率一覽表</a></li>
+                <li><a class="footer-function-over" title="個股本益比、殖利率、股價淨值比" href="/web/stock/aftertrading/peratio_analysis/pera.php?l=zh-tw">個股本益比、殖利率、股價淨值比</a></li>
+                <li><a class="footer-function-over" title="櫃檯買賣概況表" href="/web/regular_emerging/corporateInfo/overview/overview.php?l=zh-tw">櫃檯買賣概況表</a></li>
+                <li><a class="footer-function-over" title="櫃買市場統計報表" href="/web/link/index.php?l=zh-tw&t=3&t2=69&s=6">櫃買市場統計報表</a></li>
+            </ul>
+        </div>
+        <div class="h-pnl">
+            <h3>常用資訊</h3>
+            <ul>
+                <li><a class="footer-function-over" title="開啟新視窗，連結至：有價證券借貸交易查詢" href="https://mis.twse.com.tw/stock/sblInquiry.jsp?lang=zh_tw" target="_blank">有價證券借貸交易查詢</a></li>	                                
+                <li><a class="footer-function-over" title="盤中全面逐筆交易專區" href="/web/stock/trading/information/continuous_trading.php?l=zh-tw" target="_self">盤中全面逐筆交易專區</a></li>
+                <li><a class="footer-function-over" title="開啟新視窗，連結至：產業價值鏈資訊平台" href="https://ic.tpex.org.tw/" target="_blank">產業價值鏈資訊平台</a></li>	                                
+                <li><a class="footer-function-over" title="開休市日期表" href="/web/bulletin/trading_date/trading_date.php?l=zh-tw">開休市日期表</a></li>
+                <li><a class="footer-function-over" title="開啟新視窗，連結至：投資人個人資料查詢" href="/web/service/service/invester_info.php?l=zh-tw" target="_blank">投資人個人資料查詢</a></li>
+                <li><a class="footer-function-over" title="開啟新視窗，連結至：公司治理" href="/web/regular_emerging/governance/corporate_governance_01.php?l=zh-tw" target="_blank">公司治理</a></li>
+                <li><a class="footer-function-over" title="開啟新視窗，連結至：向本中心申請上櫃公司" href="/web/regular_emerging/apply_schedule/applicant/applicant_companies.php?l=zh-tw" target="_blank">向本中心申請上櫃公司</a></li>
+            </ul>
+        </div>
+        <div class="h-pnl w130">
+            <h3>法令規章</h3>
+            <ul>
+                <li><a class="footer-function-over" title="近期修訂資訊" href="/web/bulletin/announcement_law/announcement_law.php?l=zh-tw">近期修訂資訊</a></li>
+                <li><a class="footer-function-over" title="具證券性質之虛擬通貨業務(STO) href="/web/STO/index.php?l=zh-tw">具證券性質之虛擬通貨業務(STO)</a></li>
+            </ul>            
+        </div>	
+        <div class="h-pnl w100">
+            <h3>出版品</h3>
+            <ul>							
+                <li><a class="footer-function-over" title="簡介" href="/web/about/publish/intro/intro.php?l=zh-tw">簡介</a></li>
+                <li><a class="footer-function-over" title="年報" href="/web/about/publish/annuals/annual.php?l=zh-tw">年報</a></li>
+                <li><a class="footer-function-over" title="年鑑" href="/web/about/publish/factbooks/factbook.php?l=zh-tw">年鑑</a></li>
+                <li><a class="footer-function-over" title="永續報告書" href="/web/about/csr/index.php?l=zh-tw">永續報告書</a></li>
+                <li><a class="footer-function-over" title="開啟新視窗，連結至：櫃買電子報" href="http://nweb.tpex.org.tw/index.htm" target="_blank">櫃買電子報</a></li>
+                <li><a class="footer-function-over" title="教育宣導影片" href="/web/about/news/media/media_gallery.php?l=zh-tw#4">教育宣導影片</a></li>
+                <li><a class="footer-function-over" title="其他出版品" href="/web/about/publish/others/others.php?l=zh-tw">其他出版品</a></li>
+            </ul>
+        </div>		
+    </div>
+    <div class="v-pnl footer-link-pnl">        
+        <a class="footer-link-over" title="常見問題" href="/web/service/faq/index.php?l=zh-tw">常見問題</a><span class="h-gap">|</span>
+        <a class="footer-link-over" title="聯絡我們" href="/web/about/contact/contact.php?l=zh-tw">聯絡我們</a><span class="h-gap">|</span>
+        <a class="footer-link-over" title="相關網站" href="/web/inc/gtsm_related_links.php?l=zh-tw">相關網站</a><span class="h-gap">|</span>
+        <a class="footer-link-over" title="使用條款" href="/web/inc/gtsm_disclaimer.php?l=zh-tw">使用條款</a><span class="h-gap">|</span>
+        <a class="footer-link-over" title="隱私權保護說明" href="/web/inc/gtsm_privacy_rights.php?l=zh-tw">隱私權保護說明</a><span class="h-gap">|</span>        
+        <a class="footer-link-over" title="開啟新視窗，連結至：個人資料管理政策聲明" href="/storage/publish/others/04000001個人資料管理政策聲明.pdf" target="_blank">個人資料管理政策聲明</a><span class="h-gap">|</span>
+        <a class="footer-link-over" title="資訊安全政策" href="/storage/publish/others/資通安全政策及內涵.pdf">資訊安全政策</a><span class="h-gap">|</span>
+		<a class="footer-link-over" title="營運持續政策" href="/storage/publish/others/營運持續政策.pdf">營運持續政策</a>
+    </div>
+    <div class="v-pnl footer-copy-pnl">
+        證券櫃檯買賣中心 版權所有&copy; 10084台北市中正區羅斯福路二段100號15樓 (02)2369-9555&nbsp;投資人服務專線:(02)2366-6100				
+    </div>
+    <div class="v-pnl footer-browser-pnl">
+        本站建議最佳瀏覽條件：螢幕解析度 1024x768 以上，瀏覽器為 Chrome、Safari、FireFox 或 Internet Explorer 11。
+    </div>
+</div>
+
+ 
+</body>
+</html>
